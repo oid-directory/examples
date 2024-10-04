@@ -1,0 +1,11 @@
+dn: o=rA
+objectClass: organization
+description: Example OID Registry LLC
+
+dn: ou=Registrations,o=rA
+objectClass: organizationalUnit
+description: OID allocations
+
+dn: ou=Registrants,o=rA
+objectClass: organizationalUnit
+description: OID authorities

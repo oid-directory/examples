@@ -1,0 +1,16 @@
+## Root DSE modifications, per Section 2.3.6 of the RADSA I-D. Note that modifications to the
+## Root DSE are done directly to /opt/opendj/config/config.ldif, as this entry cannot usually
+## be modified via the LDAP protocol, such as with ordinary entries.  Edits to this file also
+## necessitate a restart of the OpenDJ service.
+##
+## See also the "opendj_unmodified_dse.ldif" for the default state of this entry.
+#
+dn: cn=Root DSE,cn=config
+cn: Root DSE
+ds-cfg-show-all-attributes: false
+objectClass: rADUAConfig
+objectClass: ds-cfg-root-dse-backend
+objectClass: top
+rADirectoryModel: 1.3.6.1.4.1.56521.101.3.1.3
+rARegistrationBase: ou=Registrations,o=rA
+rARegistrantBase: ou=Registrants,o=rA

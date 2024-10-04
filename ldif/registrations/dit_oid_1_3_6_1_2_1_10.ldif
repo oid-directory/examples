@@ -1,0 +1,69 @@
+## 1.3.6.1.2.1.10.* - Not a complete excerpt
+## 
+## The following LDIF entries use select RANGE-based
+## allocations from this registration merely for example
+## and educational purposes only with respect to the OID
+## Directory I-D series.
+##
+## Note this information may become stale over time.  For
+## the latest information, visit:
+##
+##     https://www.iana.org/assignments/smi-numbers/smi-numbers.xhtml
+##
+## Transmission Control Values
+##
+## Registration Procedure(s)
+##    Specification Required
+## Expert(s)
+##    Dave Thaler (primary), Dan Romascanu (secondary)
+## Description
+##    iso.org.dod.internet.mgmt.mib-2.transmission (1.3.6.1.2.1.10)
+## Reference
+##    [RFC1213][RFC8892]
+## Note
+##    For future transmission number assignments, an 'ifType' assignment 
+##    will be made with the same value.
+
+```
+dn: n=135,n=10,n=1,n=2,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+objectClass: x680Context
+objectClass: iSORegistration
+objectClass: arc
+objectClass: registration
+objectClass: top
+objectClass: registrationSupplement
+registrationRange: 165
+dotNotation 1.3.6.1.2.1.10.135
+identifier: reserved
+nameAndNumberForm: reserved(135)
+aSN1Notation: {iso(1) identified-organization(3) dod(6) internet(1) mgmt (2) mib-2(1) transmission(10) reserved(135)}
+iRI: /ISO/Identified-Organization/6/1/2/1/10/135
+
+dn: n=201,n=10,n=1,n=2,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+objectClass: x680Context
+objectClass: iSORegistration
+objectClass: arc
+objectClass: registration
+objectClass: top
+objectClass: registrationSupplement
+registrationRange: 223
+dotNotation 1.3.6.1.2.1.10.201
+identifier: reserved
+nameAndNumberForm: reserved(201)
+aSN1Notation: {iso(1) identified-organization(3) dod(6) internet(1) mgmt (2) mib-2(1) transmission(10) reserved(201)}
+iRI: /ISO/Identified-Organization/6/1/2/1/10/201
+
+dn: n=225,n=10,n=1,n=2,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+objectClass: x680Context
+objectClass: iSORegistration
+objectClass: arc
+objectClass: registration
+objectClass: top
+objectClass: registrationSupplement
+registrationRange: 226
+dotNotation 1.3.6.1.2.1.10.225
+identifier: reserved
+nameAndNumberForm: reserved(225)
+aSN1Notation: {iso(1) identified-organization(3) dod(6) internet(1) mgmt (2) mib-2(1) transmission(10) reserved(225)}
+iRI: /ISO/Identified-Organization/6/1/2/1/10/225
+```

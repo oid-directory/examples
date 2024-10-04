@@ -1,0 +1,14 @@
+dn: n=1,ou=Registrations,o=rA
+objectClass: x680Context
+objectClass: x660Context
+objectClass: top
+objectClass: rootArc
+objectClass: registration
+identifier: iso
+aSN1Notation: {iso(1)}
+registrationClassification: Standards development organization
+unicodeValue: ISO
+minArc: n=0,ou=Registrations,o=rA
+iRI: /ISO
+description: International Organization for Standardization (ISO)
+standardizedNameForm: {iso}

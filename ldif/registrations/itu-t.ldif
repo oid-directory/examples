@@ -1,0 +1,16 @@
+dn: n=0,ou=Registrations,o=rA
+objectClass: x680Context
+objectClass: x660Context
+objectClass: top
+objectClass: rootArc
+objectClass: registration
+registrationClassification: Standards development organization
+standardizedNameForm: {itu-t}
+secondaryIdentifier: ccitt
+additionalUnicodeValue: ITU-R
+identifier: itu-t
+aSN1Notation: {itu-t(0)}
+unicodeValue: ITU-T
+iRI: /ITU-T
+iRI: /ITU-R
+description: International Telecommunication Union - Telecommunication standardization sector (ITU-T)

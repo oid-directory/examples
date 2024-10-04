@@ -1,0 +1,120 @@
+dn: ds-cfg-attribute=firstAuthority,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthority
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=c-firstAuthority,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: c-firstAuthority
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityStartTimestamp,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityStartTimestamp
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityEndTimestamp,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityEndTimestamp
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityCommonName,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityCommonName
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityCountryCode,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityCountryCode
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityCountryName,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityCountryName
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityEmail,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityEmail
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityFax,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityFax
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityLocality,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityLocality
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityMobile,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityMobile
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityOrg,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityOrg
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityPOBox,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityPOBox
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityPostalAddress,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityPostalAddress
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityPostalCode,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityPostalCode
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityState,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityState
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityStreet,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityStreet
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityTelephone,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityTelephone
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityTitle,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityTitle
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=firstAuthorityURI,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: firstAuthorityURI
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+

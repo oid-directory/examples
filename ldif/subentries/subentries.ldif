@@ -1,0 +1,58 @@
+dn: cn=itu,n=0,ou=Registrations,o=rA
+objectClass: extensibleObject
+objectClass: subentry
+objectClass: top
+objectClass: collectiveAttributeSubentry
+cn: itu
+c-topArc;collective: n=0,ou=Registrations,o=rA
+subtreeSpecification: {minimum 1}
+
+dn: cn=iso,n=1,ou=Registrations,o=rA
+objectClass: extensibleObject
+objectClass: subentry
+objectClass: top
+objectClass: collectiveAttributeSubentry
+cn: iso
+c-topArc;collective: n=1,ou=Registrations,o=rA
+subtreeSpecification: {minimum 1}
+
+dn: cn=joint-iso-itu,n=2,ou=Registrations,o=rA
+objectClass: extensibleObject
+objectClass: subentry
+objectClass: top
+objectClass: collectiveAttributeSubentry
+cn: joint-iso-itu
+c-topArc;collective: n=2,ou=Registrations,o=rA
+subtreeSpecification: {minimum 1}
+
+dn: cn=iana-enterprise-numbers,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+objectClass: extensibleObject
+objectClass: subentry
+objectClass: top
+objectClass: collectiveAttributeSubentry
+c-minArc;collective: n=0,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+c-maxArc;collective: n=900000,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+c-supArc;collective: n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+subtreeSpecification: {minimum 1, maximum 1}
+
+dn: cn=oiddir-at,n=3,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+objectClass: extensibleObject
+objectClass: subentry
+objectClass: top
+objectClass: collectiveAttributeSubentry
+c-supArc;collective: n=3,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+c-maxArc;collective: n=103,n=3,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+cn: oiddir-at
+c-minArc;collective: n=1,n=3,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+subtreeSpecification: { minimum 1, maximum 1 }
+
+dn: cn=oiddir-oc,n=5,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+objectClass: extensibleObject
+objectClass: subentry
+objectClass: top
+objectClass: collectiveAttributeSubentry
+c-supArc;collective: n=5,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+c-maxArc;collective: n=17,n=5,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+cn: oiddir-oc
+c-minArc;collective: n=1,n=5,n=2,n=101,n=56521,n=1,n=4,n=1,n=6,n=3,n=1,ou=Registrations,o=rA
+subtreeSpecification: { minimum 1, maximum 1 }

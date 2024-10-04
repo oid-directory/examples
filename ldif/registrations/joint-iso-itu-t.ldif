@@ -1,0 +1,14 @@
+dn: n=2,ou=Registrations,o=rA
+objectClass: x680Context
+objectClass: x660Context
+objectClass: top
+objectClass: rootArc
+objectClass: registration
+registrationClassification: Standards development organization
+standardizedNameForm: {joint-iso-itu-t}
+secondaryIdentifier: joint-iso-ccitt
+identifier: joint-iso-itu-t
+aSN1Notation: {joint-iso-itu-t(2)}
+unicodeValue: Joint-ISO-ITU-T
+iRI: /Joint-ISO-ITU-T
+description: Areas of joint work between ISO/IEC (International Organization for Standardization/International Electrotechnical Commission) and ITU-T (International Telecommunication Union - Telecommunication standardization sector), and other intl. work

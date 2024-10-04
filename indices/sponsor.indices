@@ -1,0 +1,120 @@
+dn: ds-cfg-attribute=sponsor,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsor
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=c-sponsor,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: c-sponsor
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorStartTimestamp,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorStartTimestamp
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorEndTimestamp,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorStartTimestamp
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorCommonName,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorCommonName
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorCountryCode,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorCountryCode
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorCountryName,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorCountryName
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorEmail,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorEmail
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorFax,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorFax
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorLocality,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorLocality
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorMobile,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorMobile
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorOrg,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorOrg
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorPOBox,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorPOBox
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorPostalAddress,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorPostalAddress
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorPostalCode,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorPostalCode
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorState,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorState
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorStreet,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorStreet
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorTelephone,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorTelephone
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorTitle,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorTitle
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=sponsorURI,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: sponsorURI
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+

@@ -1,0 +1,119 @@
+dn: ds-cfg-attribute=n,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: n
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+
+dn: ds-cfg-attribute=dotNotation,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: dotNotation
+ds-cfg-index-type: equality
+ds-cfg-index-type: substring
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=iRI,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: iRI
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=aSN1Notation,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: aSN1Notation
+ds-cfg-index-type: equality
+ds-cfg-index-type: substring
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=unicodeValue,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: unicodeValue
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=additionalUnicodeValue,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: additionalUnicodeValue
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=identifier,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: identifier
+ds-cfg-index-type: equality
+ds-cfg-index-type: substring
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=secondaryIdentifier,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: secondaryIdentifier
+ds-cfg-index-type: equality
+ds-cfg-index-type: substring
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=registrationCreated,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: registrationCreated
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=registrationModified,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: registrationModified
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=registrationRange,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: registrationRange
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=registrationStatus,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: registrationStatus
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=registrationClassification,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: registrationClassification
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=isLeafNode,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: isLeafNode
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=isFrozen,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: isFrozen
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=standardizedNameForm,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: standardizedNameForm
+ds-cfg-index-type: equality
+ds-cfg-index-type: substring
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=nameAndNumberForm,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: nameAndNumberForm
+ds-cfg-index-type: equality
+ds-cfg-index-type: substring
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=longArc,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: longArc
+ds-cfg-index-type: equality
+objectClass: ds-cfg-backend-index
+objectClass: top
+
+dn: ds-cfg-attribute=registeredUUID,cn=Index,ds-cfg-backend-id=userRoot,cn=Backends,cn=config
+ds-cfg-attribute: registeredUUID                                       
+ds-cfg-index-type: equality                                             
+objectClass: ds-cfg-backend-index                                       
+objectClass: top
+

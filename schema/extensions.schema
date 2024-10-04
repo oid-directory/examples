@@ -1,0 +1,61 @@
+## Tested on OpenDJ 4.8.1
+##
+## This LDIF contains SUPPLEMENTAL "nameForms" and
+## "dITStructureRules" definitions not officially
+## included in the RASCHEMA I-D.
+#
+nameForms: ( 1.3.6.1.4.1.56521.101.2.7.4
+          NAME 'registrantIDArcForm'
+          DESC 'registrantID RDN name form'
+          OC registrant
+          MUST registrantID
+          X-ORIGIN 'draft-coretta-oiddir-schema SUPPLEMENT' )
+#
+##
+## See ITU-T Rec. X.501, cl. 14.2.2 and draft-coretta-ldap-subnf
+##
+#
+nameForms: ( 2.5.15.16
+          NAME 'subentryNameForm'
+          DESC 'X.501, cl. 14.2.2: the Subentry name form'
+          OC subentry
+          MUST cn )
+#
+## NOTE: Feel free to adjust the DSR numerical rule indices if they should
+## encroach upon any preexisting structure rules within your directory.
+#
+dITStructureRules: ( 0
+          NAME 'rootArcStructure'
+          FORM nRootArcForm
+          X-ORIGIN 'draft-coretta-oiddir-schema SUPPLEMENT' )
+#
+dITStructureRules: ( 1
+          NAME 'subArcStructure'
+          FORM nArcForm
+          X-ORIGIN 'draft-coretta-oiddir-schema SUPPLEMENT' )
+#
+dITStructureRules: ( 2
+          NAME 'registrantIDStructure'
+          FORM registrantIDArcForm
+          X-ORIGIN 'draft-coretta-oiddir-schema SUPPLEMENT' )
+#
+dITContentRules: ( 1.3.6.1.4.1.56521.101.2.5.2
+          NAME 'rootContentRule'
+          AUX ( spatialContext
+              $ registrationSupplement
+              $ x660Context
+              $ x680Context
+              $ x690Context )
+          MUST ( iRI
+               $ unicodeValue
+               $ aSN1Notation
+               $ identifier )
+          NOT ( topArc
+              $ supArc
+              $ c-topArc
+              $ c-supArc
+              $ isFrozen
+              $ isLeafNode
+              $ dotEncoding
+              $ dotNotation
+              $ registrationRange ) )

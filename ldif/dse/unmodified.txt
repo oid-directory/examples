@@ -1,0 +1,10 @@
+## As of OpenDJ 4.7.0, this represents the default state of the Root DSE following initial setup.
+##
+## See also the "opendj_modified_dse.ldif" file for recommended modifications to this entry
+## with regards to RA DUA autoconfiguration capabilities.
+#
+dn: cn=Root DSE,cn=config
+cn: Root DSE
+ds-cfg-show-all-attributes: false
+objectClass: ds-cfg-root-dse-backend
+objectClass: top
